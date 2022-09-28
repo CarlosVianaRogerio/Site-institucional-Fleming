@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #E8F1F2;;
+}
+
+
+.header {
+    background-color:#326F92 ;
+}
+.header .container{
+    width: 80%;
+    margin: auto;
+    
+}
+.header .container {
+    display: flex;
+    align-items: center;
+ 
+    justify-content: space-between;
+}
+.header .container .titulo{
+    font-size: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+.header .container .navbar{
+    display: flex;
+   
+    color: white;
+    justify-content:space-around;
+    list-style: none;
+    width: 30%;
+    font-size: 22px;
+    padding: 10px;
+      
+}.navbar li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.botao{
+    border: solid 1px white;
+    border-radius: 7%;
+    padding: 0px 30px 0px 30px;
+}
+.session .container{
+    padding-top:6%;
+    margin: auto;
+    width: 80%;
+    display: flex;
+}
+.session .container .img_home{
+    width: 550px;
+    display: flex;
+    margin-left: 15%;
+    
+    
+}
+.session .container p{
+    
+    padding-left: 22%;
+    
+    font-size: 60px;
+}
+.session .container span{
+    color: #326F92;
+}
+.sobre h1{
+  
+   
+    font-size: 65px;
+    margin: left;
+   
+}
+.sobre .container{
+    width: 80%;
+    margin:auto;
+    padding-top: 120px;
+    display: flex;
+  
+}
+.sobre .img_sobre{
+   
+    padding-top: 100px;
+    padding-left: 7%;
+    padding-right: 7%;
+    
+}
+.sobre .container span{
+   
+    font-size: 35px;
+}
+.sobre .escrita{
+    margin-left: 15%;
+
+}
