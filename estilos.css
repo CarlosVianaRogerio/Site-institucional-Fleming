@@ -7,6 +7,8 @@ body{
 
 .header {
     background-color:#326F92 ;
+    position: fixed;
+    width: 100%;
 }
 .header .container{
     width: 80%;
@@ -72,6 +74,7 @@ body{
    
     font-size: 65px;
     margin: left;
+    padding-bottom: 120px;
    
 }
 .sobre .container{
@@ -91,8 +94,43 @@ body{
 .sobre .container span{
    
     font-size: 35px;
+    
 }
 .sobre .escrita{
     margin-left: 15%;
+
+}
+.calcule {
+    background-image: url(Img-Fundo-DashBoard.svg);
+    background-position: right;
+    background-size: cover;
+    
+    
+    
+}
+.calcule .container{
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+.calcule .container .img_calcule{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+   
+}
+.calcule .container h2{
+    display: flex;
+    border: solid 5px #326F92;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 50px;
+    padding: 15px;
 
 }
